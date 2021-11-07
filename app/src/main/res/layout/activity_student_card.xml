@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="60dp"
+    tools:context=".StudentCard">
+
+    <TextView
+        android:id="@+id/studentHeading"
+        android:layout_width="300dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/student_report_card"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/ShowName"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="@string/student_name"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/ShowData"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="@string/student_emailaddress"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/studentImage"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/studentimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/student"
+
+        />
+
+
+    <Button
+        android:id="@+id/Signoutbtn"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+
+        android:text="@string/sign_out"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Closebtn"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="490dp"
+        android:text="@string/close"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/loginHeading"
+        android:layout_width="245dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/login_form"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/emailHeading"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        android:autofillHints="username"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <TextView
+        android:id="@+id/passHeading"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="333dp"
+        android:autofillHints="password" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/teal_700"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/new_user_sign_up"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

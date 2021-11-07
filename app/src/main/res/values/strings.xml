@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Student_Registration_Form</string>
+    <string name="button">Custom_Button</string>
+    <string name="todo">TODO</string>
+    <string name="textView">TextView</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="StudentForm">StudentForm</string>
+    <string name="name">" Name"</string>
+    <string name="student_report_card">Student Report Card</string>
+    <string name="student_name">Student Name</string>
+    <string name="studentimage">StudentImage</string>
+    <string name="student_emailaddress">student_EmailAddress</string>
+    <string name="student_phoneno">student_phoneNo</string>
+    <string name="student_country">student_Country</string>
+    <string name="register_form">Register Form</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm_password</string>
+    <string name="country">Country</string>
+    <string name="register">Register</string>
+    <string name="reset">Reset</string>
+    <string name="signin">Sign_in</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login_form">Login Form</string>
+    <string name="User_name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="close">CLose</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="experties">Experties</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="php">PHP</string>
+    <string name="communication_skills">Communication SKills</string>
+    <string name="single">Single :</string>
+
+</resources>
